@@ -2,7 +2,7 @@
 
 ```bash
 python3 -m venv venv
-source ../.venv/bin/activate  
+source ../.venv/bin/activate  or  . venv/bin/activate
 pip3 install fastapi
 pip3 install uvicorn
 ```
