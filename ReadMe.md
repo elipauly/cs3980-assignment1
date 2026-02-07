@@ -9,13 +9,10 @@ pip3 install functools
 pip3 install matplotlib
 ```
 
-Create a python file 'api.py' with code.
-
-```bash
-uvicorn api:app --reload
-```
-
-After everything is looking good, make a requirements.txt file before committing
+After everything is looking good, for the assignment, I share all my pip installs in the requirements.txt file
 ```bash
 pip3 freeze > requirements.txt
 ```
+
+![Fib.py Graph](./fib_graph.png)
+Here's my nice graph. It's a little wonky, but given that we're measuring in miniscules of seconds, the difference is likely just noise. Computers are quite fast, mine was able to calculate 100 iterations of the Fibonacci sequence within .0003 seconds.

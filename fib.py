@@ -15,7 +15,7 @@ def timer():
 
             time_elapsed = end_time - start_time
             tracked_times.append(time_elapsed)
-            print(f"Finished in {time_elapsed:.8f} seconds")
+            print(f"Finished in {time_elapsed:.8f} seconds f({args[0]}) -> {result}")
             return result
         return wrapper
     return decorator
